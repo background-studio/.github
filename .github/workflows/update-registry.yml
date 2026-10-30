@@ -1,0 +1,73 @@
+name: Update registry
+
+on:
+  schedule:
+    # 每小时一次（错开整点高峰）。GitHub 可能延迟调度，见 README「时效」。
+    - cron: '7 * * * *'
+  workflow_dispatch:
+    inputs:
+      allow_rollback:
+        description: '允许版本回退/通道消失/同版本 hash 改变（仅在确认删除或撤回 Release 后使用）'
+        type: boolean
+        default: false
+  repository_dispatch:
+    types: [refresh-registry]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-registry
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Generate and commit
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ALLOW_ROLLBACK: ${{ inputs.allow_rollback && '1' || '0' }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            # 每次尝试（含 push 冲突后 reset 到最新 main）都先跑测试（含现有清单结构校验），
+            # 确保执行的是当前检出且已通过测试的脚本。
+            node --test "scripts/test/*.test.mjs"
+            # 生成失败（网络/校验/回滚检查）时脚本非零退出且不改文件，本次运行直接失败。
+            node scripts/update-registry.mjs
+            # 生成后严格校验：结构、稳定输出、与 catalog 完全同步。
+            node scripts/update-registry.mjs --validate --strict
+            if [ -z "$(git status --porcelain -- registry/v1.json)" ]; then
+              echo 'registry/v1.json 无变化'
+              exit 0
+            fi
+            unexpected="$(git status --porcelain | grep -v ' registry/v1.json$' || true)"
+            if [ -n "$unexpected" ]; then
+              echo "::error::生成器修改了 registry/v1.json 以外的文件：$unexpected"
+              exit 1
+            fi
+            git add -- registry/v1.json
+            git commit -m 'chore(registry): update registry/v1.json'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            # 不 force push：main 已前进时丢弃本地提交，基于最新 main 重新生成。
+            echo "push 被拒绝（第 $attempt 次），基于最新 main 重试"
+            git fetch --depth=1 origin main
+            git reset --hard origin/main
+          done
+          echo '::error::多次 push 失败'
+          exit 1

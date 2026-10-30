@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-30T11:02:59Z",
+  "plugins": [
+    {
+      "id": "codex",
+      "displayName": "Codex Background Studio",
+      "owner": "background-studio",
+      "repo": "codex_desktop_background",
+      "assetPrefix": "CodexBackgroundStudio-",
+      "exeName": "Codex Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-codex",
+      "targetHint": "OpenAI Codex 桌面应用",
+      "icon": "codex.png",
+      "releases": {
+        "stable": {
+          "version": "0.6.5",
+          "tag": "v0.6.5",
+          "assetName": "CodexBackgroundStudio-0.6.5-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/codex_desktop_background/releases/download/v0.6.5/CodexBackgroundStudio-0.6.5-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/codex_desktop_background/releases/tag/v0.6.5",
+          "sha256": "d455ed1345e672c34dae5b53c15b263070735ef074a2abd401af5b0ca64f007f"
+        },
+        "prerelease": {
+          "version": "0.6.5-beta.2",
+          "tag": "v0.6.5-beta.2",
+          "assetName": "CodexBackgroundStudio-0.6.5-beta.2-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/codex_desktop_background/releases/download/v0.6.5-beta.2/CodexBackgroundStudio-0.6.5-beta.2-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/codex_desktop_background/releases/tag/v0.6.5-beta.2",
+          "sha256": "628d1639d68af4e7b37691616da4b55fa483635ed9d03ac6cef9bd563fb09754"
+        }
+      }
+    },
+    {
+      "id": "notion",
+      "displayName": "Notion Background Studio",
+      "owner": "background-studio",
+      "repo": "notion_desktop_background",
+      "assetPrefix": "NotionBackgroundStudio-",
+      "exeName": "Notion Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-notion",
+      "targetHint": "Notion 桌面应用",
+      "icon": "notion.png",
+      "releases": {
+        "stable": {
+          "version": "0.3.5",
+          "tag": "v0.3.5",
+          "assetName": "NotionBackgroundStudio-0.3.5-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/notion_desktop_background/releases/download/v0.3.5/NotionBackgroundStudio-0.3.5-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/notion_desktop_background/releases/tag/v0.3.5",
+          "sha256": "7e394bd0c0d706d742f17364d7009062e7a8abba9f60ec9f795cb18b5406b903"
+        },
+        "prerelease": {
+          "version": "0.3.3-beta.1",
+          "tag": "v0.3.3-beta.1",
+          "assetName": "NotionBackgroundStudio-0.3.3-beta.1-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/notion_desktop_background/releases/download/v0.3.3-beta.1/NotionBackgroundStudio-0.3.3-beta.1-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/notion_desktop_background/releases/tag/v0.3.3-beta.1",
+          "sha256": "b05bd81fa1262ac26b8daee76a944a75adad6f58f0e8d26d693edf771e66eb4a"
+        }
+      }
+    },
+    {
+      "id": "multica",
+      "displayName": "Multica Background Studio",
+      "owner": "background-studio",
+      "repo": "multica_desktop_background",
+      "assetPrefix": "MulticaBackgroundStudio-",
+      "exeName": "Multica Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-multica",
+      "targetHint": "Multica 桌面应用",
+      "icon": "multica.png",
+      "releases": {
+        "stable": {
+          "version": "0.3.2",
+          "tag": "v0.3.2",
+          "assetName": "MulticaBackgroundStudio-0.3.2-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/multica_desktop_background/releases/download/v0.3.2/MulticaBackgroundStudio-0.3.2-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/multica_desktop_background/releases/tag/v0.3.2",
+          "sha256": "c54acc5655b9a2227243bcf6a803d3f080125046295cfc8294eb35a619084a2a"
+        },
+        "prerelease": {
+          "version": "0.3.2-beta.1",
+          "tag": "v0.3.2-beta.1",
+          "assetName": "MulticaBackgroundStudio-0.3.2-beta.1-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/multica_desktop_background/releases/download/v0.3.2-beta.1/MulticaBackgroundStudio-0.3.2-beta.1-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/multica_desktop_background/releases/tag/v0.3.2-beta.1",
+          "sha256": "325bc109d96ab1127057d501c519c1f7aea174fe6c92b58bae8421f96ed5d6ed"
+        }
+      }
+    },
+    {
+      "id": "grok-bot",
+      "displayName": "Grok Bot Background Studio",
+      "owner": "background-studio",
+      "repo": "grok_bot_desktop_background",
+      "assetPrefix": "GrokBotBackgroundStudio-",
+      "exeName": "Grok Bot Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-grok-bot",
+      "targetHint": "Grok Bot 桌面应用",
+      "icon": "grok-bot.png",
+      "releases": {
+        "stable": {
+          "version": "0.3.12",
+          "tag": "v0.3.12",
+          "assetName": "GrokBotBackgroundStudio-0.3.12-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/grok_bot_desktop_background/releases/download/v0.3.12/GrokBotBackgroundStudio-0.3.12-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/grok_bot_desktop_background/releases/tag/v0.3.12",
+          "sha256": "b2ba29dbf317aa7bef4926e865049c0006b1c4e44eeace39820fdaa3627dbb08"
+        },
+        "prerelease": {
+          "version": "0.3.10-beta.1",
+          "tag": "v0.3.10-beta.1",
+          "assetName": "GrokBotBackgroundStudio-0.3.10-beta.1-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/grok_bot_desktop_background/releases/download/v0.3.10-beta.1/GrokBotBackgroundStudio-0.3.10-beta.1-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/grok_bot_desktop_background/releases/tag/v0.3.10-beta.1",
+          "sha256": "39b7911c094af6da5f3f2fc49c12127969a020f5ac7811aefec6edba76907055"
+        }
+      }
+    },
+    {
+      "id": "cursor-agent",
+      "displayName": "Cursor Agent Background Studio",
+      "owner": "background-studio",
+      "repo": "cursor_agent_window_background",
+      "assetPrefix": "CursorAgentBackgroundStudio-",
+      "exeName": "Cursor Agent Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-cursor-agent",
+      "targetHint": "Cursor Agent 窗口",
+      "icon": "cursor-agent.png",
+      "releases": {
+        "stable": {
+          "version": "0.1.5",
+          "tag": "v0.1.5",
+          "assetName": "CursorAgentBackgroundStudio-0.1.5-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/cursor_agent_window_background/releases/download/v0.1.5/CursorAgentBackgroundStudio-0.1.5-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/cursor_agent_window_background/releases/tag/v0.1.5",
+          "sha256": "171532f6007858017ac0b6cc731b40c170d01262482479ee5bf248743a462779"
+        },
+        "prerelease": {
+          "version": "0.1.4-beta.1",
+          "tag": "v0.1.4-beta.1",
+          "assetName": "CursorAgentBackgroundStudio-0.1.4-beta.1-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/cursor_agent_window_background/releases/download/v0.1.4-beta.1/CursorAgentBackgroundStudio-0.1.4-beta.1-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/cursor_agent_window_background/releases/tag/v0.1.4-beta.1",
+          "sha256": "a2d79e043a4b3dc1488612274c0db4c2654160a1e3a74c0b92048fb50f8295d0"
+        }
+      }
+    },
+    {
+      "id": "rebased",
+      "displayName": "Rebased Background Studio",
+      "owner": "background-studio",
+      "repo": "rebased_desktop_background",
+      "assetPrefix": "RebasedBackgroundStudio-",
+      "exeName": "Rebased Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-rebased",
+      "targetHint": "Rebased Git 客户端",
+      "icon": "rebased.png",
+      "releases": {
+        "stable": {
+          "version": "0.1.2",
+          "tag": "v0.1.2",
+          "assetName": "RebasedBackgroundStudio-0.1.2-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/rebased_desktop_background/releases/download/v0.1.2/RebasedBackgroundStudio-0.1.2-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/rebased_desktop_background/releases/tag/v0.1.2",
+          "sha256": "002e508b91519a81e41545873f3dcecf494717dcb8f47045e482f27c4c21c2e5"
+        },
+        "prerelease": {
+          "version": "0.1.2-beta.2",
+          "tag": "v0.1.2-beta.2",
+          "assetName": "RebasedBackgroundStudio-0.1.2-beta.2-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/rebased_desktop_background/releases/download/v0.1.2-beta.2/RebasedBackgroundStudio-0.1.2-beta.2-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/rebased_desktop_background/releases/tag/v0.1.2-beta.2",
+          "sha256": "c7bd34294e1375dc4039474889514c1d4288d919d2d5f602a0bb52a6421e5174"
+        }
+      }
+    },
+    {
+      "id": "factory",
+      "displayName": "Factory Background Studio",
+      "owner": "background-studio",
+      "repo": "factory_desktop_background",
+      "assetPrefix": "FactoryBackgroundStudio-",
+      "exeName": "Factory Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-factory",
+      "targetHint": "Factory 桌面应用（Droid）",
+      "icon": "factory.png",
+      "releases": {
+        "stable": {
+          "version": "0.1.1",
+          "tag": "v0.1.1",
+          "assetName": "FactoryBackgroundStudio-0.1.1-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/factory_desktop_background/releases/download/v0.1.1/FactoryBackgroundStudio-0.1.1-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/factory_desktop_background/releases/tag/v0.1.1",
+          "sha256": "43d24b29ff8d077e783c1e219ddc9f9d5382ab0a421ed4cdbe2bb3b9f729a3b4"
+        },
+        "prerelease": null
+      }
+    }
+  ],
+  "host": {
+    "stable": {
+      "version": "0.3.6",
+      "tag": "v0.3.6",
+      "assetName": "Background.Studio_0.3.6_x64-setup.exe",
+      "downloadUrl": "https://github.com/background-studio/background-studio/releases/download/v0.3.6/Background.Studio_0.3.6_x64-setup.exe",
+      "releaseUrl": "https://github.com/background-studio/background-studio/releases/tag/v0.3.6",
+      "sha256": "e4014ac493bb7f747debac1ce2f4971dd8cf3b34606940f125f5de7e8919c97d"
+    },
+    "prerelease": {
+      "version": "0.3.6-beta.2",
+      "tag": "v0.3.6-beta.2",
+      "assetName": "Background.Studio_0.3.6-beta.2_x64-setup.exe",
+      "downloadUrl": "https://github.com/background-studio/background-studio/releases/download/v0.3.6-beta.2/Background.Studio_0.3.6-beta.2_x64-setup.exe",
+      "releaseUrl": "https://github.com/background-studio/background-studio/releases/tag/v0.3.6-beta.2",
+      "sha256": "0c6da0ffd00cb53b132563b89251020e5be61d59a20524cd1c598aa318bef272"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "pluginProtocol": 1,
+  "plugins": [
+    {
+      "id": "codex",
+      "displayName": "Codex Background Studio",
+      "owner": "background-studio",
+      "repo": "codex_desktop_background",
+      "assetPrefix": "CodexBackgroundStudio-",
+      "exeName": "Codex Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-codex",
+      "targetHint": "OpenAI Codex 桌面应用",
+      "icon": "codex.png"
+    },
+    {
+      "id": "notion",
+      "displayName": "Notion Background Studio",
+      "owner": "background-studio",
+      "repo": "notion_desktop_background",
+      "assetPrefix": "NotionBackgroundStudio-",
+      "exeName": "Notion Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-notion",
+      "targetHint": "Notion 桌面应用",
+      "icon": "notion.png"
+    },
+    {
+      "id": "multica",
+      "displayName": "Multica Background Studio",
+      "owner": "background-studio",
+      "repo": "multica_desktop_background",
+      "assetPrefix": "MulticaBackgroundStudio-",
+      "exeName": "Multica Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-multica",
+      "targetHint": "Multica 桌面应用",
+      "icon": "multica.png"
+    },
+    {
+      "id": "grok-bot",
+      "displayName": "Grok Bot Background Studio",
+      "owner": "background-studio",
+      "repo": "grok_bot_desktop_background",
+      "assetPrefix": "GrokBotBackgroundStudio-",
+      "exeName": "Grok Bot Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-grok-bot",
+      "targetHint": "Grok Bot 桌面应用",
+      "icon": "grok-bot.png"
+    },
+    {
+      "id": "cursor-agent",
+      "displayName": "Cursor Agent Background Studio",
+      "owner": "background-studio",
+      "repo": "cursor_agent_window_background",
+      "assetPrefix": "CursorAgentBackgroundStudio-",
+      "exeName": "Cursor Agent Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-cursor-agent",
+      "targetHint": "Cursor Agent 窗口",
+      "icon": "cursor-agent.png"
+    },
+    {
+      "id": "rebased",
+      "displayName": "Rebased Background Studio",
+      "owner": "background-studio",
+      "repo": "rebased_desktop_background",
+      "assetPrefix": "RebasedBackgroundStudio-",
+      "exeName": "Rebased Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-rebased",
+      "targetHint": "Rebased Git 客户端",
+      "icon": "rebased.png"
+    },
+    {
+      "id": "factory",
+      "displayName": "Factory Background Studio",
+      "owner": "background-studio",
+      "repo": "factory_desktop_background",
+      "assetPrefix": "FactoryBackgroundStudio-",
+      "exeName": "Factory Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-factory",
+      "targetHint": "Factory 桌面应用（Droid）",
+      "icon": "factory.png"
+    }
+  ]
+}
