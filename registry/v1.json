@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T12:11:21Z",
+  "generatedAt": "2026-11-19T12:55:09Z",
   "plugins": [
     {
       "id": "codex",
@@ -43,12 +43,12 @@
       "icon": "notion.png",
       "releases": {
         "stable": {
-          "version": "0.3.5",
-          "tag": "v0.3.5",
-          "assetName": "NotionBackgroundStudio-0.3.5-plugin.zip",
-          "downloadUrl": "https://github.com/background-studio/notion_desktop_background/releases/download/v0.3.5/NotionBackgroundStudio-0.3.5-plugin.zip",
-          "releaseUrl": "https://github.com/background-studio/notion_desktop_background/releases/tag/v0.3.5",
-          "sha256": "7e394bd0c0d706d742f17364d7009062e7a8abba9f60ec9f795cb18b5406b903"
+          "version": "0.3.6",
+          "tag": "v0.3.6",
+          "assetName": "NotionBackgroundStudio-0.3.6-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/notion_desktop_background/releases/download/v0.3.6/NotionBackgroundStudio-0.3.6-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/notion_desktop_background/releases/tag/v0.3.6",
+          "sha256": "8cbe44ebac7fa73d5b56e5f4f55b8bad13cfd04687ae48dfeff836fe4313a835"
         },
         "prerelease": {
           "version": "0.3.3-beta.1",
