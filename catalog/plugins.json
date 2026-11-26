@@ -77,6 +77,17 @@
       "pipeName": "\\\\.\\pipe\\background-studio-factory",
       "targetHint": "Factory 桌面应用（Droid）",
       "icon": "factory.png"
+    },
+    {
+      "id": "antigravity",
+      "displayName": "Antigravity Background Studio",
+      "owner": "background-studio",
+      "repo": "antigravity_desktop_background",
+      "assetPrefix": "AntigravityBackgroundStudio-",
+      "exeName": "Antigravity Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-antigravity",
+      "targetHint": "Antigravity 桌面应用",
+      "icon": "antigravity.png"
     }
   ]
 }
