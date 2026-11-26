@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T12:55:09Z",
+  "generatedAt": "2026-11-26T02:54:46Z",
   "plugins": [
     {
       "id": "codex",
@@ -194,6 +194,28 @@
           "downloadUrl": "https://github.com/background-studio/factory_desktop_background/releases/download/v0.1.1/FactoryBackgroundStudio-0.1.1-plugin.zip",
           "releaseUrl": "https://github.com/background-studio/factory_desktop_background/releases/tag/v0.1.1",
           "sha256": "43d24b29ff8d077e783c1e219ddc9f9d5382ab0a421ed4cdbe2bb3b9f729a3b4"
+        },
+        "prerelease": null
+      }
+    },
+    {
+      "id": "antigravity",
+      "displayName": "Antigravity Background Studio",
+      "owner": "background-studio",
+      "repo": "antigravity_desktop_background",
+      "assetPrefix": "AntigravityBackgroundStudio-",
+      "exeName": "Antigravity Background Studio.exe",
+      "pipeName": "\\\\.\\pipe\\background-studio-antigravity",
+      "targetHint": "Antigravity 桌面应用",
+      "icon": "antigravity.png",
+      "releases": {
+        "stable": {
+          "version": "0.1.1",
+          "tag": "v0.1.1",
+          "assetName": "AntigravityBackgroundStudio-0.1.1-plugin.zip",
+          "downloadUrl": "https://github.com/background-studio/antigravity_desktop_background/releases/download/v0.1.1/AntigravityBackgroundStudio-0.1.1-plugin.zip",
+          "releaseUrl": "https://github.com/background-studio/antigravity_desktop_background/releases/tag/v0.1.1",
+          "sha256": "ddfb62fabf3055d3074cc2fd464234eeff99bd12841920306df03d67a9000586"
         },
         "prerelease": null
       }
